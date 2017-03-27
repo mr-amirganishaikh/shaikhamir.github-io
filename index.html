@@ -262,7 +262,7 @@
                         <img src="img/client/khishinchand-chellaram-college.png" class="center-block img-responsive" alt="" title="" />
                     </div>                   
                 </div>
-                <embed id="embed" src="" width="100%" height="100%" />
+                <iframe id="embed" src="" width="100%" height="100%" />
             </div>
             <div class="options bottom">
                 <ul class="list-inline">
@@ -308,7 +308,7 @@
          $(document).ready(function(){
             $("#desktop").click(function(){
                 $('.desktop-icons').fadeIn('fast');
-                $("#embed").replaceWith("<embed id='embed' src='' width='100%' height='100%' />");
+                $("#embed").replaceWith("<iframe id='embed' src='' width='100%' height='100%' />");
             });
         });
         
@@ -316,7 +316,7 @@
             $(".desktop-icon").click(function(){
                 $('.desktop-icons').fadeOut('fast');
                 var embedData = $(this).attr('data-embed');
-                $("#embed").replaceWith("<embed id='embed' src='"+embedData+"' width='100%' height='100%' />");
+                $("#embed").replaceWith("<iframe id='embed' src='"+embedData+"' width='100%' height='100%' />");
             });
         });
     </script>
