@@ -1,0 +1,49 @@
+// Font size
+$fontsize: 16px;
+
+// Font family
+$fontpr: "Roboto", sans-serif;
+$fontse: "Roboto Slab", "Times New Roman", serif;
+$fonttr: 'Roboto Condensed', sans-serif;
+
+// Colors
+$colorba: #272727;
+$colorwh: #ffffff;
+$colorbl: #000000;
+$colorpr: #9c27b0;
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #bb0000;
+$vimeo: #1ab7ea;
+$tumblr: #32506d;
+$instagram: #bc2a8d;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+
+
+.section-shadow{
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);    
+}
+.section-shadow2{box-shadow:  0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);}
+.section-dark{
+  background-color: #343434;
+  background: #232323;
+  background: -moz-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #585858), color-stop(100%, #232323));
+  background: -webkit-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+  background: -o-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
+  background: radial-gradient(ellipse at center, #585858 0%, #232323 100%);
+}

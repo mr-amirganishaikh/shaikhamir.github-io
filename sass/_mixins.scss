@@ -1,0 +1,46 @@
+// Transition Mixins
+@mixin transition ($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin transform ($args...) {
+  -webkit-tranform: $args;
+  -moz-transform: $args;
+  -ms-transform: $args;
+  -o-transform: $args;
+  transform: $args;
+}
+
+@mixin border-radius ($args...) {
+  -webkit-border-radius: $args;
+  -moz-border-radius: $args;
+  -ms-border-radius: $args;
+  -o-border-radius: $args;
+  border-radius: $args;
+}
+
+@mixin filter($args...){
+    -ms-filter: $args;
+    -webkit-filter: $args;
+    -moz-filter: $args;
+    -o-filter: $args;
+    filter: $args;
+}
+
+// Clearfix 
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.box-shadow{box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.16);}

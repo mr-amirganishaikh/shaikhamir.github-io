@@ -1,0 +1,20 @@
+// Colors
+$colorba: #272727;
+$colorpr: #FF3939;
+$colorse: #3ECEB6;
+$colortr: #2475AD;
+$colorqu: #F88E12;
+$colorwh: #ffffff;
+$colorbl: #000000;
+
+// Font family
+@font-face {
+  font-family: 'papyrus'
+   url('PAPYRUS.TTF') format('truetype')
+}
+$fontpr: 'Open Sans', sans-serif;
+$fontsc: papyrus;
+$fonttr: 'Roboto', sans-serif;
+
+// Font size
+$fontsize: 16px;
